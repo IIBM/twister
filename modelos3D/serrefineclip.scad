@@ -7,12 +7,16 @@ fn1=20;
 
 module clipp()
  {
-  difference()
-  {
-   union()
-   {
-    hull()//une un rectangulo y un cilindro,tal que su rellenado esta inclinado(en donde se debe agarrar el clip)
+  translate([0,0,radio_mayor])    
+   rotate([90,0,0])
+    union()
+    {  
+    difference()
     {
+     union()
+     {
+      hull()//une un rectangulo y un cilindro,tal que su rellenado esta inclinado(en donde se debe agarrar el clip)
+      {
      translate([-22,0,z1*3])
       rotate([0,9,0])  
        cube([z1,radio_mayor*2,z1],center=true);//un rectangulo en ubicacion alta
@@ -56,6 +60,7 @@ module clipp()
    cylinder(r=radio_mayor,h=z1,$fn=fn1); 
    translate([-4,0,0])  
     cylinder(r=radio_mayor,h=z1,$fn=fn1);
-  }   
+  }
+  }
  }
  clipp();
