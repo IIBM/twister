@@ -11,7 +11,7 @@ module clipp()
   {
    union()
    {
-    hull()//une un recatangulo y un cilindro,tal que su rellenado esta inclinado(en donde se debe agarrar el clip)
+    hull()//une un rectangulo y un cilindro,tal que su rellenado esta inclinado(en donde se debe agarrar el clip)
     {
      translate([-22,0,z1*3])
       rotate([0,9,0])  
