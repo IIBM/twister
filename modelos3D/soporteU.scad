@@ -1,5 +1,6 @@
-//cyntia vilte 29 de agosto soporte en forma de U 
+//cyntia vilte 13 de Octubre soporte en forma de U 
  
+z_1=3.5;//lo que mide la base (en z)
 z_2=20;//cuanto mide (en z) cada cilindro sin contar con la base
 x1=4.85;
 y1=0.45;//con y2 lo utilizo para ser la medida del radio de los cilindros
