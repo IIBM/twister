@@ -6,7 +6,7 @@ x1=4.85;
 y1=0.45;//con y2 lo utilizo para ser la medida del radio de los cilindros
 y2=1.8;
 y_total=(2*y1)+y2;
-x_total=52;
+x_total=52;//lo que mide el largo e la pieza
 fn1=100;
 radio_cilindro=1.5; // lo utilizo para el cilindro del medio
 
